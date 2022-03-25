@@ -60,7 +60,7 @@ class HomePage extends StatelessWidget {
               itemBuilder: (context, item) {
                 return ListTile(
                   leading: ClipOval(
-                    child: Container(
+                    child: SizedBox(
                       width: 40,
                       height: 40,
                       child: Image.asset(
